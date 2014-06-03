@@ -254,7 +254,15 @@
 		D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949B15BD2D8E00D803EB /* Icon-114.png */; };
 		D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949D15BD2D9600D803EB /* Icon-72.png */; };
 		D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949F15BD2D9800D803EB /* Icon-144.png */; };
+		E7055C9A193E013900A9E811 /* MTNotificationQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7055C96193E013900A9E811 /* MTNotificationQueue.cpp */; };
+		E7055C9B193E013900A9E811 /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7055C98193E013900A9E811 /* NotificationCenter.cpp */; };
+		E764AE22193DAEC70027BAAF /* Goal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E764AE20193DAEC70027BAAF /* Goal.cpp */; };
+		E764AE27193DD2D80027BAAF /* MovingEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E764AE25193DD2D80027BAAF /* MovingEntity.cpp */; };
+		E764AE2A193DD2EF0027BAAF /* SoccerBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E764AE28193DD2EF0027BAAF /* SoccerBall.cpp */; };
+		E764AE2D193DD31C0027BAAF /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E764AE2B193DD31C0027BAAF /* BaseGameEntity.cpp */; };
 		E7C07654193A0D4900CB2D87 /* Wall2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7C07652193A0D4900CB2D87 /* Wall2D.cpp */; };
+		E7C07658193A501400CB2D87 /* SoccerPitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7C07656193A501400CB2D87 /* SoccerPitch.cpp */; };
+		E7C0765B193A53D300CB2D87 /* Region.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7C07659193A53D300CB2D87 /* Region.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -774,9 +782,28 @@
 		D4EF949D15BD2D9600D803EB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../proj.ios/Icon-72.png"; sourceTree = "<group>"; };
 		D4EF949F15BD2D9800D803EB /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../proj.ios/Icon-144.png"; sourceTree = "<group>"; };
 		D4F9F37B12E54555005CA6D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		E7055C96193E013900A9E811 /* MTNotificationQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MTNotificationQueue.cpp; path = ../../Lark/Classes/MTNotificationQueue.cpp; sourceTree = "<group>"; };
+		E7055C97193E013900A9E811 /* MTNotificationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNotificationQueue.h; path = ../../Lark/Classes/MTNotificationQueue.h; sourceTree = "<group>"; };
+		E7055C98193E013900A9E811 /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NotificationCenter.cpp; path = ../../Lark/Classes/NotificationCenter.cpp; sourceTree = "<group>"; };
+		E7055C99193E013900A9E811 /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = ../../Lark/Classes/NotificationCenter.h; sourceTree = "<group>"; };
+		E764AE20193DAEC70027BAAF /* Goal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Goal.cpp; path = ../Classes/Goal.cpp; sourceTree = "<group>"; };
+		E764AE21193DAEC70027BAAF /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Goal.h; path = ../Classes/Goal.h; sourceTree = "<group>"; };
+		E764AE23193DB7700027BAAF /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = ../Classes/Geometry.h; sourceTree = "<group>"; };
+		E764AE25193DD2D80027BAAF /* MovingEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovingEntity.cpp; path = ../Classes/MovingEntity.cpp; sourceTree = "<group>"; };
+		E764AE26193DD2D80027BAAF /* MovingEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovingEntity.h; path = ../Classes/MovingEntity.h; sourceTree = "<group>"; };
+		E764AE28193DD2EF0027BAAF /* SoccerBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoccerBall.cpp; path = ../Classes/SoccerBall.cpp; sourceTree = "<group>"; };
+		E764AE29193DD2EF0027BAAF /* SoccerBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoccerBall.h; path = ../Classes/SoccerBall.h; sourceTree = "<group>"; };
+		E764AE2B193DD31C0027BAAF /* BaseGameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGameEntity.cpp; path = ../Classes/BaseGameEntity.cpp; sourceTree = "<group>"; };
+		E764AE2C193DD31C0027BAAF /* BaseGameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseGameEntity.h; path = ../Classes/BaseGameEntity.h; sourceTree = "<group>"; };
 		E7C0764E1939FDB200CB2D87 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../Classes/Util.h; sourceTree = "<group>"; };
 		E7C07652193A0D4900CB2D87 /* Wall2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wall2D.cpp; path = ../Classes/Wall2D.cpp; sourceTree = "<group>"; };
 		E7C07653193A0D4900CB2D87 /* Wall2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wall2D.h; path = ../Classes/Wall2D.h; sourceTree = "<group>"; };
+		E7C07655193A4FE200CB2D87 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../Classes/constants.h; sourceTree = "<group>"; };
+		E7C07656193A501400CB2D87 /* SoccerPitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoccerPitch.cpp; path = ../Classes/SoccerPitch.cpp; sourceTree = "<group>"; };
+		E7C07657193A501400CB2D87 /* SoccerPitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoccerPitch.h; path = ../Classes/SoccerPitch.h; sourceTree = "<group>"; };
+		E7C07659193A53D300CB2D87 /* Region.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Region.cpp; path = ../Classes/Region.cpp; sourceTree = "<group>"; };
+		E7C0765A193A53D300CB2D87 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Region.h; path = ../Classes/Region.h; sourceTree = "<group>"; };
+		E7C0765C193A541F00CB2D87 /* Stream_Utility_Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stream_Utility_Functions.h; path = ../Classes/Stream_Utility_Functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1295,12 +1322,30 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E7055C96193E013900A9E811 /* MTNotificationQueue.cpp */,
+				E7055C97193E013900A9E811 /* MTNotificationQueue.h */,
+				E7055C98193E013900A9E811 /* NotificationCenter.cpp */,
+				E7055C99193E013900A9E811 /* NotificationCenter.h */,
 				E7C0764D1939FDA000CB2D87 /* misc */,
 				E7C0764C1939FD9300CB2D87 /* 2D */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* SoccerScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* SoccerScene.h */,
+				E7C07655193A4FE200CB2D87 /* constants.h */,
+				E7C07656193A501400CB2D87 /* SoccerPitch.cpp */,
+				E7C07657193A501400CB2D87 /* SoccerPitch.h */,
+				E7C07659193A53D300CB2D87 /* Region.cpp */,
+				E7C0765A193A53D300CB2D87 /* Region.h */,
+				E7C0765C193A541F00CB2D87 /* Stream_Utility_Functions.h */,
+				E764AE20193DAEC70027BAAF /* Goal.cpp */,
+				E764AE21193DAEC70027BAAF /* Goal.h */,
+				E764AE2B193DD31C0027BAAF /* BaseGameEntity.cpp */,
+				E764AE2C193DD31C0027BAAF /* BaseGameEntity.h */,
+				E764AE25193DD2D80027BAAF /* MovingEntity.cpp */,
+				E764AE26193DD2D80027BAAF /* MovingEntity.h */,
+				E764AE28193DD2EF0027BAAF /* SoccerBall.cpp */,
+				E764AE29193DD2EF0027BAAF /* SoccerBall.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1916,6 +1961,7 @@
 			children = (
 				E7C07652193A0D4900CB2D87 /* Wall2D.cpp */,
 				E7C07653193A0D4900CB2D87 /* Wall2D.h */,
+				E764AE23193DB7700027BAAF /* Geometry.h */,
 			);
 			name = 2D;
 			sourceTree = "<group>";
@@ -2020,6 +2066,7 @@
 			files = (
 				15A3D8FF1682F7D5002FB0C5 /* b2BroadPhase.cpp in Sources */,
 				15A3D9001682F7D5002FB0C5 /* b2CollideCircle.cpp in Sources */,
+				E764AE2A193DD2EF0027BAAF /* SoccerBall.cpp in Sources */,
 				298B29C018D0668400C1920F /* LayoutReader.cpp in Sources */,
 				15A3D9011682F7D5002FB0C5 /* b2CollideEdge.cpp in Sources */,
 				15A3D9021682F7D5002FB0C5 /* b2CollidePolygon.cpp in Sources */,
@@ -2040,6 +2087,7 @@
 				15A3D90F1682F7D5002FB0C5 /* b2StackAllocator.cpp in Sources */,
 				15A3D9101682F7D5002FB0C5 /* b2Timer.cpp in Sources */,
 				15A3D9111682F7D5002FB0C5 /* b2Body.cpp in Sources */,
+				E764AE27193DD2D80027BAAF /* MovingEntity.cpp in Sources */,
 				15A3D9121682F7D5002FB0C5 /* b2ContactManager.cpp in Sources */,
 				15A3D9131682F7D5002FB0C5 /* b2Fixture.cpp in Sources */,
 				15A3D9141682F7D5002FB0C5 /* b2Island.cpp in Sources */,
@@ -2061,7 +2109,9 @@
 				298B29BD18D0668400C1920F /* LabelAtlasReader.cpp in Sources */,
 				15A3D9211682F7D5002FB0C5 /* b2FrictionJoint.cpp in Sources */,
 				15A3D9221682F7D5002FB0C5 /* b2GearJoint.cpp in Sources */,
+				E764AE2D193DD31C0027BAAF /* BaseGameEntity.cpp in Sources */,
 				15A3D9231682F7D5002FB0C5 /* b2Joint.cpp in Sources */,
+				E7055C9B193E013900A9E811 /* NotificationCenter.cpp in Sources */,
 				15A3D9241682F7D5002FB0C5 /* b2MouseJoint.cpp in Sources */,
 				15A3D9251682F7D5002FB0C5 /* b2PrismaticJoint.cpp in Sources */,
 				15A3D9261682F7D5002FB0C5 /* b2PulleyJoint.cpp in Sources */,
@@ -2097,6 +2147,7 @@
 				15A3D9AE1682F7F9002FB0C5 /* cpSpaceQuery.c in Sources */,
 				15A3D9AF1682F7F9002FB0C5 /* cpSpaceStep.c in Sources */,
 				15A3D9B01682F7F9002FB0C5 /* cpSpatialIndex.c in Sources */,
+				E764AE22193DAEC70027BAAF /* Goal.cpp in Sources */,
 				15A3D9B11682F7F9002FB0C5 /* cpSweep1D.c in Sources */,
 				15A3D9B21682F7F9002FB0C5 /* cpVect.c in Sources */,
 				15A3DA311682F826002FB0C5 /* CCBAnimationManager.cpp in Sources */,
@@ -2173,6 +2224,7 @@
 				1A8F3B71175E05DA00049216 /* Atlas.cpp in Sources */,
 				1A8F3B72175E05DA00049216 /* AtlasAttachmentLoader.cpp in Sources */,
 				298B29C618D0668400C1920F /* TextFieldReader.cpp in Sources */,
+				E7055C9A193E013900A9E811 /* MTNotificationQueue.cpp in Sources */,
 				1A8F3B73175E05DA00049216 /* Attachment.cpp in Sources */,
 				1A8F3B74175E05DA00049216 /* AttachmentLoader.cpp in Sources */,
 				1A8F3B75175E05DA00049216 /* Bone.cpp in Sources */,
@@ -2191,6 +2243,7 @@
 				1A8F3B80175E05DA00049216 /* Slot.cpp in Sources */,
 				1A8F3B81175E05DA00049216 /* SlotData.cpp in Sources */,
 				1A8F3B82175E05DA00049216 /* spine-cocos2dx.cpp in Sources */,
+				E7C0765B193A53D300CB2D87 /* Region.cpp in Sources */,
 				298B29C418D0668400C1920F /* ScrollViewReader.cpp in Sources */,
 				1AB87035175E0A84005D39BF /* WebSocket.cpp in Sources */,
 				375BD4C51868411B0024609E /* TriggerMng.cpp in Sources */,
@@ -2210,6 +2263,7 @@
 				379BB9A517F03F3700829B88 /* CCColliderDetector.cpp in Sources */,
 				379BB9A617F03F3700829B88 /* CCArmatureDataManager.cpp in Sources */,
 				379BB9A717F03F3700829B88 /* CCArmatureDefine.cpp in Sources */,
+				E7C07658193A501400CB2D87 /* SoccerPitch.cpp in Sources */,
 				379BB9A817F03F3700829B88 /* CCDataReaderHelper.cpp in Sources */,
 				379BB9A917F03F3700829B88 /* CCSpriteFrameCacheHelper.cpp in Sources */,
 				379BB9AA17F03F3700829B88 /* CCTransformHelp.cpp in Sources */,

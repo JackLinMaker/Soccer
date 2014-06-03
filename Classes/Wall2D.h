@@ -53,7 +53,9 @@ public:
     
 protected:
     CCPoint m_vA;
+    
     CCPoint m_vB;
+    
     CCPoint m_vN;
     
     void CalculateNormal();

@@ -130,5 +130,13 @@ void Wall2D::Read(ifstream &in)
 
 void Wall2D::draw()
 {
-    
+    CCNode::draw();
+    ccDrawLine(m_vA, m_vB);
+}
+
+void Wall2D::CalculateNormal()
+{
+    CCPoint temp = ccpNormalize(ccpSub(m_vB, m_vA));
+    m_vN.x = -temp.y;
+    m_vN.y = temp.x;
 }
